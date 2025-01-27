@@ -2,13 +2,40 @@
 
 ![alt text](icon/1.jpg)
 
- The purpose of this configuration is to create an assistant for the iterative improvement of large language Model Assistant configuration texts (provided as system prompts).
+## Assistant Name
 
- The Assistant is instructed to review the configuration text, suggests enhancements, and then return an updated, improved version integrating those. 
+This repository provides a configuration text for a large language model assistant or agent. 
 
- The intended use case is those configuring AI assistants for various purposes. 
+An index page gathering these is [here](https://github.com/danielrosehill/AI-Assistants-Index). 
 
- A high temperature setting is recommended to enhance the creativity of the Configuration Review Assistant. 
+## Assistant Purpose
+
+The purpose of this configuration is to create an assistant for the iterative improvement of large language Model Assistant configuration texts (provided as system prompts).
+
+The Assistant is instructed to review the configuration text, suggests enhancements, and then return an updated, improved version integrating those. 
+
+The intended use case is those configuring AI assistants for various purposes. 
+
+A high temperature setting is recommended to enhance the creativity of the Configuration Review Assistant. 
+
+## Configuration Parameters (Sugested)
+
+**Temperature setting**: High 
+
+## Public Deployments
+
+## Template Availability 
+
+- OpenWebUI [x]]
+
+## Model Recommendations
+
+This assistant requires a foundational context of knowledge of best practices in configuring LLM assistants. Given that this field is itself so fast evolving, it would probably be advisable to have a RAG pipeline supplementing this assistant. 
+
+Good reasoning and some creativity are recommended. I am using a temperature of one for that reason. 
+
+
+---
 
 
 ## Author
